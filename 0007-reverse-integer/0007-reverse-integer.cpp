@@ -1,11 +1,17 @@
 class Solution {
 public:
     int reverse(int x) {
+        // h5prajapat
         int r=0;
         while(x!=0){
-            int temp = x;
+            // int temp = x;
+            // x = x/10;
+            // int d = temp - x*10;
+
+            int d = x%10;
             x = x/10;
-            int d = temp - x*10;
+
+
             if (r > INT_MAX / 10 || (r == INT_MAX / 10 && d > 7))
                 return 0;
 
