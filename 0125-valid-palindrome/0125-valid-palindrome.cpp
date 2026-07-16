@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
+        // h5prajapat
         int left = 0;
         int right = s.length() - 1;
 
