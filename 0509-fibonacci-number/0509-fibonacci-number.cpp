@@ -6,12 +6,12 @@ public:
 
         for (int i = 0 ; i < n ; i++){
 
-            a = a+b;
-            b = a - b;
+            // a = a+b;
+            // b = a - b;
             // can also use this :
-            // int c = a + b;
-            // a = b;
-            // b = c;
+            int c = a + b;
+            a = b;
+            b = c;
             
         }
         return b;
