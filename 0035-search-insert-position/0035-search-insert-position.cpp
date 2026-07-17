@@ -1,6 +1,7 @@
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
+        // h5prajapat
         int a=0;
         int b= 0;
         int x = 0;
