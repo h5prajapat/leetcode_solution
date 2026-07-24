@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
+        // hprajapat
         sort(nums.begin(),nums.end());
         int c = nums.size();
 
